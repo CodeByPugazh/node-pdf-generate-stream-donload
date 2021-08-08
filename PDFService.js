@@ -5,6 +5,6 @@ exports.generatePDF = (onData, onEnd) => {
     doc.on('data', onData)
     doc.on('end', onEnd)
     doc.fontSize(20)
-    doc.text('My First Generated PDF Document')
+    doc.text('First Generated PDF Document')
     doc.end()
 }
