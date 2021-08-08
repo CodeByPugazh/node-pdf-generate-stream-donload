@@ -1,0 +1,16 @@
+{
+  "name": "node-pdf-stream",
+  "version": "1.0.0",
+  "description": "This to reference for pdf generation and stream it out",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Pugazhenthi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pdfkit": "^0.12.3"
+  }
+}
